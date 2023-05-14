@@ -6,8 +6,6 @@ window.addEventListener('load', () => {
 })
        
 
-
-
 // ========= Adding Current Active Class to NAV ========
 const navItems = document.querySelectorAll(".nav ul li");
 const section = document.querySelectorAll("section");
