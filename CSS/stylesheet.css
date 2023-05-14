@@ -752,77 +752,77 @@ section {
     --smaller-font-size: .75rem;
   }
 
-    /* -------- LAYOUT ---------- */
-    section {
-      margin-bottom: var(--mb-0-5);
-    }
-  
-    /* --------- RESUABLE CSS CLASSES -------- */
-  
-    .section {
-      padding: 1rem 0 1rem;
-    }
-  
-    .caption {
-      padding: 1rem var(--mb-1);
-    }
-  
-    .content-space {
-      padding: 1rem var(--mb-1);
-    }
-  
-    .heading-space {
-      padding: 1rem 0.5rem;
-    }
+  /* -------- LAYOUT ---------- */
+  section {
+    margin-bottom: var(--mb-0-5);
+  }
 
-    .line-up .v-line-up {
-      height: 6rem;
-    }
-  
-    /* < !-- ----For vertical lines----- --> */
-    .line-up {
-      justify-content: space-between;
-      align-items: flex-start;
-    }
-  
-    .v-line-up {
-      height: 15rem;
-      width: 0.2rem;
-      background-color: var(--white-color);
-    }
+  /* --------- RESUABLE CSS CLASSES -------- */
+
+  .section {
+    padding: 1rem 0 1rem;
+  }
+
+  .caption {
+    padding: 1rem var(--mb-1);
+  }
+
+  .content-space {
+    padding: 1rem var(--mb-1);
+  }
+
+  .heading-space {
+    padding: 1rem 0.5rem;
+  }
+
+  .line-up .v-line-up {
+    height: 6rem;
+  }
+
+  /* < !-- ----For vertical lines----- --> */
+  .line-up {
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .v-line-up {
+    height: 15rem;
+    width: 0.2rem;
+    background-color: var(--white-color);
+  }
 
 
-    /* ------------- NAV ---------------- */
-    .header .portfolio-name {
-      justify-content: flex-start;
-    }
+  /* ------------- NAV ---------------- */
+  .header .portfolio-name {
+    justify-content: flex-start;
+  }
 
-    .header {
-      overflow: visible;
-      position: relative;
-      z-index: 99;
-    }
+  .header {
+    overflow: visible;
+    position: relative;
+    z-index: 99;
+  }
 
-    .header .section {
-      grid-template-columns: 1fr 1fr;
-    }
+  .header .section {
+    grid-template-columns: 1fr 1fr;
+  }
 
-    .header .nav {
-      display: flex;
-      justify-content: flex-end;
-    }
+  .header .nav {
+    display: flex;
+    justify-content: flex-end;
+  }
 
-    .nav #open-menu-btn,
-    .nav #close-menu-btn {
-      display: contents;
-      font-size: var(--big-font-size);
-      color: var(--color-white);
-      cursor: pointer;
-    }
+  .nav #open-menu-btn,
+  .nav #close-menu-btn {
+    display: contents;
+    font-size: var(--big-font-size);
+    color: var(--color-white);
+    cursor: pointer;
+  }
 
-    .nav #close-menu-btn {
-      display: none;
-    }
+  .nav #close-menu-btn {
+    display: none;
+  }
 
     .nav .nav-menu {
       position: absolute;
@@ -925,6 +925,12 @@ section {
     .contact-items .linkedIn i {
       font-size: var(--normal-font-size);
       padding: 1rem;
+    }
+
+    /* --------- CV Button -------- */
+    #myCv {
+      bottom: 15rem;
+      padding: 8px;
     }
 
 }
@@ -1132,6 +1138,12 @@ section {
     .contact-items .linkedIn i {
       font-size: var(--h1-font-size);
       padding: 0.25rem;
+    }
+
+    /* --------- CV Button -------- */
+    #myCv {
+      bottom: 15rem;
+      padding: 5px;
     }
 
 }
